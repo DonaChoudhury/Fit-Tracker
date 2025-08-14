@@ -5,6 +5,12 @@ A MERN-stack fitness tracking application that helps users log workouts, monitor
 The app offers muscle group–based exercise logging and daily wellness tracking (water intake, sleep, step count, workout duration) — all in an intuitive, mobile-friendly interface.
 
 
+## Live Demonstration
+
+A quick demo of the Gym Activity Tracker in action—showcasing user login, exercise logging, and wellness entries.
+https://drive.google.com/file/d/15pOZzskizx_h7yyNYeejsuthZa-qD62o/view?usp=drivesdk
+
+
 ## Features
 
 ### Workout Tracking
@@ -129,10 +135,6 @@ The app offers muscle group–based exercise logging and daily wellness tracking
    * Data remains available across sessions and devices.
 
 
-## Live Demonstration
-
-A quick demo of the Gym Activity Tracker in action—showcasing user login, exercise logging, and wellness entries.
-https://drive.google.com/file/d/15pOZzskizx_h7yyNYeejsuthZa-qD62o/view?usp=drivesdk
 
 
 ## Author
