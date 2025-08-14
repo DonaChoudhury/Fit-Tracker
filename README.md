@@ -136,6 +136,25 @@ https://drive.google.com/file/d/15pOZzskizx_h7yyNYeejsuthZa-qD62o/view?usp=drive
 
 
 
+  **Visual Workflow**
+  
+flowchart TD
+    A[User Login / Landing Page] --> B[Dashboard shows wide range of muscle groups for logging workout and habit logs]
+    B --> C[Select Muscle Group from cards shown in the bottom of the screen]
+    C --> D[Fetch related exercises from MongoDB via backend API]
+    D --> E[Log Workout - Click on  exercise to open form]
+    E --> F[Enter 3 sets of reps & weights for current day for the chosen workout]
+    F --> G[Send data via Axios to backend & store in MongoDB]
+    B --> H[Log Daily Habits - water intake, sleep, steps, workout duration]
+    H --> I[Recoil updates landing page instantly without refresh]
+    B --> J[View Progress - past logs & compare performance]
+    J --> K[Logs Filtered by date & muscle group]
+    G --> L[Persistent Storage - logs saved day-wise in MongoDB]
+    I --> L
+    K --> L
+    L --> M[Data available across sessions & devices]
+
+
 
 ## Author
 
